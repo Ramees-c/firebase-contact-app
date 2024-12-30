@@ -7,7 +7,6 @@ function Modal({ onClose, isOpen, children }) {
     <>
       {isOpen && (
         <div
-          onClick={onClose}
           className="grid place-items-center backdrop-blur h-screen w-screen top-0 absolute z-40"
         >
           <div className="z-50 relative min-h-[200px] min-w-[60%] bg-white p-4 m-auto ">
